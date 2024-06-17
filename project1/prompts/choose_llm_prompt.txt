@@ -1,0 +1,24 @@
+Given the following user input, determine whether a math teacher or a history teacher would be more suitable to provide an accurate and detailed response.
+
+User Input Examples:
+
+	1.	“What is Newton’s law?”
+	2.	“How did World War I end?”
+
+Instructions:
+
+•	If the question pertains to mathematical concepts, principles, or theories, choose the math teacher.
+•	If the question relates to historical events, figures, or periods, choose the history teacher.
+
+Evaluation Criteria:
+
+	1.	Identify the subject matter of the user input.
+	2.	Select the role (math teacher or history teacher) that aligns with the identified subject matter.
+	3.	Provide a brief justification for your choice.
+
+Important: Select only one agent (either math teacher or history teacher) based on the user input.
+
+Examples:
+
+•	For “What is Newton’s law?” Answer: math
+•	For “How did World War I end?” Answer: history
