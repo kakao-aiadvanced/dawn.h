@@ -1,0 +1,33 @@
+Prompt: Given a list of 10 random numbers between 1 and 100, sort the numbers step by step and provide the final sorted list.
+
+Step-by-Step Process:
+
+	1.	Initial List:
+	•	Start with the given list of 10 random numbers.
+	•	Example: [43, 11, 69, 34, 35, 74, 80, 25, 85, 91]
+	2.	Step 1: Identify the smallest number in the list and move it to the front.
+	•	Smallest number: 11
+	•	List after moving the smallest number: [11, 43, 69, 34, 35, 74, 80, 25, 85, 91]
+	3.	Step 2: Sort the remaining part of the list.
+	•	Find the smallest number in the sublist [43, 69, 34, 35, 74, 80, 25, 85, 91].
+	•	Smallest number: 25
+	•	List after moving the smallest number: [11, 25, 43, 69, 34, 35, 74, 80, 85, 91]
+	4.	Step 3: Continue this process until the entire list is sorted.
+	•	Find the smallest number in the sublist [43, 69, 34, 35, 74, 80, 85, 91].
+	•	Smallest number: 34
+	•	List after moving the smallest number: [11, 25, 34, 43, 69, 35, 74, 80, 85, 91]
+	•	Find the smallest number in the sublist [43, 69, 35, 74, 80, 85, 91].
+	•	Smallest number: 35
+	•	List after moving the smallest number: [11, 25, 34, 35, 43, 69, 74, 80, 85, 91]
+	•	Continue the process for the remaining sublists:
+	•	[43, 69, 74, 80, 85, 91]
+	•	[43, 69, 74, 80, 85, 91]
+	•	[69, 74, 80, 85, 91]
+	•	[74, 80, 85, 91]
+	•	[80, 85, 91]
+	•	[85, 91]
+	•	[91]
+	5.	Final Sorted List:
+	•	After completing the above steps, the final sorted list will be: [11, 25, 34, 35, 43, 69, 74, 80, 85, 91]
+
+Note: Ensure each step is clearly described, and the state of the list is updated accordingly at each step.
